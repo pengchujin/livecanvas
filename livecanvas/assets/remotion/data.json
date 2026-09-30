@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "demo": true,
+  "title": "温度随四季变化",
+  "subtitle": "示例城市 · 2025 全年 · 月平均气温",
+  "footnote": "合成数据仅用于验证动画流程，不代表任何城市的真实天气。",
+  "metric": {
+    "kind": "temperature",
+    "label": "月平均气温",
+    "unit": "°C"
+  },
+  "period": {
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "granularity": "monthly",
+    "timezone": "Asia/Shanghai",
+    "definition": "完整自然年，每月一个合成观测"
+  },
+  "asOf": "2026-09-30",
+  "provenance": "synthetic",
+  "sources": [
+    {
+      "id": "demo",
+      "title": "合成测试数据",
+      "url": "demo://synthetic",
+      "accessedAt": "2026-09-30",
+      "method": "人工设定的 12 个测试值，无真实世界含义"
+    }
+  ],
+  "series": [
+    {
+      "id": "temperature",
+      "name": "月均温",
+      "color": "#327C6A",
+      "points": [
+        {
+          "date": "2025-01-15",
+          "value": -2,
+          "sourceId": "demo"
+        },
+        {
+          "date": "2025-02-15",
+          "value": 1,
+          "sourceId": "demo"
+        },
+        {
+          "date": "2025-03-15",
+          "value": 8,
+          "sourceId": "demo"
+        },
+        {
+          "date": "2025-04-15",
+          "value": 15,
+          "sourceId": "demo"
+        },
+        {
+          "date": "2025-05-15",
+          "value": 21,
+          "sourceId": "demo"
+        },
+        {
+          "date": "2025-06-15",
+          "value": 26,
+          "sourceId": "demo"
+        },
+        {
+          "date": "2025-07-15",
+          "value": 29,
+          "sourceId": "demo"
+        },
+        {
+          "date": "2025-08-15",
+          "value": 27,
+          "sourceId": "demo"
+        },
+        {
+          "date": "2025-09-15",
+          "value": 22,
+          "sourceId": "demo"
+        },
+        {
+          "date": "2025-10-15",
+          "value": 15,
+          "sourceId": "demo"
+        },
+        {
+          "date": "2025-11-15",
+          "value": 7,
+          "sourceId": "demo"
+        },
+        {
+          "date": "2025-12-15",
+          "value": 0,
+          "sourceId": "demo"
+        }
+      ]
+    }
+  ],
+  "display": {
+    "decimals": 1,
+    "yDomain": [
+      -10,
+      30
+    ]
+  }
+}

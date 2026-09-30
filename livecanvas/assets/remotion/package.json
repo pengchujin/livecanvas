@@ -1,0 +1,9 @@
+{
+  "name": "livecanvas-composition",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"render": "node render.mjs", "studio": "remotion studio src/index.tsx", "typecheck": "tsc --noEmit"},
+  "dependencies": {"@remotion/bundler": "4.0.530", "@remotion/cli": "4.0.530", "@remotion/renderer": "4.0.530", "remotion": "4.0.530", "react": "19.1.0", "react-dom": "19.1.0"},
+  "devDependencies": {"@types/react": "19.1.0", "typescript": "5.8.3"}
+}

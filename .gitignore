@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+.build/
+__pycache__/
+work/
+
+artifacts/
+
+# Local validation history and generated output
+VALIDATION.md
+out/
+.env
+.env.*
+*.pyc

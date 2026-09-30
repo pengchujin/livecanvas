@@ -1,0 +1,4 @@
+interface:
+  display_name: "LiveCanvas · 实况画布"
+  short_description: "搜索核实内容，用 Remotion 制作图片、emoji 与场景动画，提供预览及实况资源"
+  default_prompt: "使用 $livecanvas 将我的主题制作成有完整封面、图片或 emoji 和场景动画的实况画布，提供可观看预览及 Live Photo 资源，说明手机兼容性，不自动导入照片 App。"

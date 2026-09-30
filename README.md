@@ -6,19 +6,19 @@
 
 ## 作品演示
 
-下面是实际生成的 9 张作品。点击标题看 MP4 动画；图片是静态封面。作品保留更名前的 LiveChart 标记。
+下面是实际生成的 9 张作品。下方 GIF 直接循环播放，点击标题可看高清 MP4。作品保留更名前的 LiveChart 标记。
 
 | [小米市值](docs/demos/xiaomi.mp4) | [A20 Pro vs A19 Pro](docs/demos/a20-pro.mp4) | [全球人口](docs/demos/population.mp4) |
 | :---: | :---: | :---: |
-| ![小米市值](docs/demos/xiaomi.jpg) | ![A20 Pro vs A19 Pro](docs/demos/a20-pro.jpg) | ![全球人口](docs/demos/population.jpg) |
+| ![小米市值](docs/demos/xiaomi.gif) | ![A20 Pro vs A19 Pro](docs/demos/a20-pro.gif) | ![全球人口](docs/demos/population.gif) |
 
 | [咖啡门店](docs/demos/coffee.mp4) | [新能源车](docs/demos/nev.mp4) | [中国高铁](docs/demos/rail.mp4) |
 | :---: | :---: | :---: |
-| ![咖啡门店](docs/demos/coffee.jpg) | ![新能源车](docs/demos/nev.jpg) | ![中国高铁](docs/demos/rail.jpg) |
+| ![咖啡门店](docs/demos/coffee.gif) | ![新能源车](docs/demos/nev.gif) | ![中国高铁](docs/demos/rail.gif) |
 
 | [双城气温](docs/demos/weather.mp4) | [奥运金牌](docs/demos/olympics.mp4) | [发电结构](docs/demos/energy.mp4) |
 | :---: | :---: | :---: |
-| ![双城气温](docs/demos/weather.jpg) | ![奥运金牌](docs/demos/olympics.jpg) | ![发电结构](docs/demos/energy.jpg) |
+| ![双城气温](docs/demos/weather.gif) | ![奥运金牌](docs/demos/olympics.gif) | ![发电结构](docs/demos/energy.gif) |
 
 数据口径与素材署名见 [演示说明](docs/DEMOS.md)。这些是制作时的数据快照，不会自动更新。
 
@@ -58,7 +58,7 @@ npx skills add pengchujin/livecanvas --skill livecanvas -g -a codex
 - **生成 Live Photo：**额外需要 macOS 和 Xcode Command Line Tools（`xcode-select --install`）。当前配对工具支持无声 H.264 + JPEG；其他系统可制作封面与视频。
 - **交付内容：**封面 JPG、动画 MP4、数据来源、可编辑工程，以及在支持环境中生成的 `.pvt` 实况资源包。不会自动导入相册。
 
-**`.pvt` 是装有配对照片、视频和元数据的资源包。**它不等于手机可直接预览的单张照片；iPhone「文件」App 可能显示未知文件。网页播放、相册保存与手机实况播放须分别实现和验证。本仓库提供静态封面及 MP4 演示，未托管网页实况相册。
+**`.pvt` 是装有配对照片、视频和元数据的资源包。**它不等于手机可直接预览的单张照片；iPhone「文件」App 可能显示未知文件。网页播放、相册保存与手机实况播放须分别实现和验证。本仓库通过 GIF 直接展示动效，并提供高清 MP4；GIF 预览不是原生 Live Photo。
 
 手动渲染与封装步骤见 [运行指南](livecanvas/references/production.md)。
 

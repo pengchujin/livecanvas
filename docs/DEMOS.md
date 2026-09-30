@@ -1,6 +1,8 @@
-# 演示数据与口径 · Demo notes
+# 演示数据与口径
 
-制作与来源核对日期：2026-09-30。九个演示保留原始数据，新增中英双语标题、标签和口径说明。README 中的 GIF 由对应 MP4 转换为 540×720、15 fps 的循环预览；JPG 是原始封面，MP4 为高清动画。不宣称 GIF 是原生 Live Photo。
+**简体中文** | [English](DEMOS.en.md)
+
+制作与来源核对日期：2026-09-30。九个演示提供独立中文、英文版本，分别位于 `demos/zh/` 与 `demos/en/`。两版保留相同数据与动画节奏。README 中的 GIF 由对应 MP4 转换为 540×720、15 fps 的循环预览；JPG 是原始封面，MP4 为高清动画。不宣称 GIF 是原生 Live Photo。
 
 | 演示 | 范围与口径 | 来源 |
 | --- | --- | --- |
@@ -14,20 +16,4 @@
 | 奥运金牌 | CHN 代表团，1984–2024 夏奥会调整后金牌数；北京 48、伦敦 39；东京 2020 届实际在 2021 举行。 | [记录汇总](https://en.wikipedia.org/wiki/China_at_the_Olympics#Medals_by_Summer_Games)、[中国奥委会](https://2024.olympic.cn/china/2024/0812/617045.html) |
 | 发电结构 | 2015/2020/2025 年实际发电量；火电含化石燃料和生物质。图中各项独立四舍五入，可能有尾差。 | [Ember](https://ember-energy.org/data/yearly-electricity-data/)、[OWID](https://github.com/owid/energy-data) |
 
-封面取自各自视频：前两张为 2.6 秒，后七张为 4.6 秒。此前配对资源均通过 macOS 本机 PHLivePhoto 加载；未取得这批作品的 iPhone 原生播放验收。素材署名见 [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md)。
-
-## English notes
-
-Sources were checked on 2026-09-30. The bilingual editions preserve the original data and animation timing. GIFs are 540×720, 15 fps looping previews; MP4s are full resolution. They are not native Live Photo playback in GitHub.
-
-- **Xiaomi:** Total market capitalization in HKD, 2023-09-29 to 2026-09-29. Thirteen quarter-end/latest snapshots; connecting lines are not daily observations. The peak refers only to the sampled points.
-- **A20 Pro vs A19 Pro:** Apple’s claims, not independent benchmarks. Each A19 Pro metric is independently normalized to 100. CPU/GPU percentages mean “up to”; the metrics cannot be added together.
-- **Population:** UN WPP 2024 historical estimates for 2000/2010/2020; 2025 is a medium-scenario projection. Animated interpolation is not an additional observation.
-- **Coffee stores:** 2020–2025 near-year-end counts. Luckin includes Hong Kong from 2024; Starbucks covers mainland China. Reporting dates differ, so no direct ratio is presented. Shop icons mark years.
-- **NEV adoption:** Full-year China new-energy passenger-car retail shares, 2021–2025. Includes battery EVs and plug-in hybrids. Each car represents one percentage point; fractional shares partially fill a car.
-- **High-speed rail:** Year-end operating length in 2010/2015/2020/2025. The route is a timeline illustration, not a geographic railway map.
-- **Temperatures:** 2025 ERA5 daily 2 m temperatures at representative Beijing/Shanghai grid points, averaged by month. Reanalysis, not citywide weather-station measurements.
-- **Olympic gold:** CHN Summer Olympic gold medals, 1984–2024, using adjusted counts: Beijing 48, London 39. The Tokyo 2020 edition took place in 2021.
-- **Electricity mix:** Actual generation in 2015/2020/2025, not installed capacity. Thermal includes fossil fuels and bioenergy; displayed shares are rounded independently.
-
-The Chinese table above links the sources. The original pairs passed macOS PHLivePhoto loading; these newly rendered bilingual GIF/MP4 previews are not newly paired `.pvt` files, and no iPhone native-playback claim is made. Attribution: [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md).
+封面取自各自视频：前两张为 2.6 秒，后七张为 4.6 秒。英文版为新渲染的 GIF/MP4 预览，未重新配对为 `.pvt`。此前中文配对资源均通过 macOS 本机 PHLivePhoto 加载；未取得这批作品的 iPhone 原生播放验收。素材署名见 [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md)。

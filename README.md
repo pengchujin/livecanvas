@@ -1,8 +1,8 @@
 # LiveCanvas · 实况画布
 
-**把一句话，做成有封面、有图片、有动画的 Live Photo 信息卡。**
+**一句话，做成有封面、有动画的 Live 图**
 
-Turn a prompt into an animated information card with a designed cover, imagery, and Apple Live Photo resources.
+Turn a sentence into a Live Photo with a designed cover and animation.
 
 一个适用于 Codex、Claude Code 等 AI 编程助手的 skill：**搜索核实 → 设计分镜 → Remotion 动画 → 预览与 Live Photo 资源**。支持图片、emoji、场景、时间线和图表。
 

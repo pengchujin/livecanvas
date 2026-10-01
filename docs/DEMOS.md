@@ -2,7 +2,7 @@
 
 **简体中文** | [English](DEMOS.en.md)
 
-制作与来源核对日期：2026-09-30。九个演示提供独立中文、英文版本，分别位于 `demos/zh/` 与 `demos/en/`。两版保留相同数据与动画节奏。README 中的 GIF 由对应 MP4 转换为 540×720、15 fps 的循环预览；JPG 是原始封面，MP4 为高清动画。不宣称 GIF 是原生 Live Photo。
+原有九个演示的制作与来源核对日期：2026-09-30。原有演示提供独立中文、英文版本，分别位于 `demos/zh/` 与 `demos/en/`。两版保留相同数据与动画节奏。README 中的 GIF 由对应 MP4 转换为 540×720、15 fps 的循环预览；JPG 是原始封面，MP4 为高清动画。不宣称 GIF 是原生 Live Photo。
 
 | 演示 | 范围与口径 | 来源 |
 | --- | --- | --- |
@@ -16,4 +16,20 @@
 | 奥运金牌 | CHN 代表团，1984–2024 夏奥会调整后金牌数；北京 48、伦敦 39；东京 2020 届实际在 2021 举行。 | [记录汇总](https://en.wikipedia.org/wiki/China_at_the_Olympics#Medals_by_Summer_Games)、[中国奥委会](https://2024.olympic.cn/china/2024/0812/617045.html) |
 | 发电结构 | 2015/2020/2025 年实际发电量；火电含化石燃料和生物质。图中各项独立四舍五入，可能有尾差。 | [Ember](https://ember-energy.org/data/yearly-electricity-data/)、[OWID](https://github.com/owid/energy-data) |
 
-封面取自各自视频：前两张为 2.6 秒，后七张为 4.6 秒。英文版为新渲染的 GIF/MP4 预览，未重新配对为 `.pvt`。此前中文配对资源均通过 macOS 本机 PHLivePhoto 加载；未取得这批作品的 iPhone 原生播放验收。素材署名见 [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md)。
+原有九个演示的封面取自各自视频：小米和 A20 Pro 为 2.6 秒，其余七张为 4.6 秒。这九张英文版是 GIF/MP4 预览，未重新配对为 `.pvt`。此前中文配对资源均通过 macOS 本机 PHLivePhoto 加载；未取得这批作品的 iPhone 原生播放验收。素材署名见 [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md)。
+
+
+## Gemini 4 Argon：新增六张
+
+来源核对日期：2026-10-01。按 A1、A2、B1、C1、D1、E2 顺序，插在 README 的 A20 Pro 演示之后。提供独立中英文图卡，两版数据和动画节奏一致。
+
+| 编号 | 内容与口径 | 来源 |
+| --- | --- | --- |
+| A1 | Gemini 4 Argon 发布；软件工程、知识工作与安全防御。分阶段开放给受信任测试者，不表示全面公开可用。 | [Google 发布](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/) |
+| A2 | 输出 token 上限从 64K 提高到 1M；不是上下文窗口大小。 | [Google 发布](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/) |
+| B1 | Artificial Analysis 智能指数：Argon High 53、GPT-6 Astra Max 53、GPT-6.1 Sol Max 52。比较限定于该指数，不表示所有任务表现相同。 | [Artificial Analysis 原帖](https://x.com/ArtificialAnlys/status/2105392625788637299) |
+| C1 | Omniscience 幻觉率：Argon 15%、Astra 51%、Sol 54%。分母为错误、部分回答和未作答之和，不是所有题目。 | [Artificial Analysis 原帖](https://x.com/ArtificialAnlys/status/2105392625788637299)、[指标定义](https://artificialanalysis.ai/evaluations/omniscience) |
+| D1 | Text Arena Overall，2026-09-30 快照：Argon High 1525±9，4,942 票，初步结果。排名不表示统计显著领先。 | [Arena Text](https://arena.ai/leaderboard/text) |
+| E2 | Terminal-Bench 4.0：Argon High 57%，此前 Gemini 3.1 Pro Preview 4%，提高 53 个百分点。 | [Artificial Analysis 原帖](https://x.com/ArtificialAnlys/status/2105392625788637299) |
+
+这六张的中英文版本均为 1080×1440、30 fps、4 秒；封面取第 102 帧（3.4 秒）。GIF 为 540×720、15 fps 预览。每张另附 `.pvt.zip`，解压得到 Live Photo 资源包。两种语言的包均通过元数据配对、macOS PHLivePhoto 本机加载与哈希验证；未测试 iPhone 原生播放。GitHub 中循环播放的 GIF 不是原生 Live Photo。

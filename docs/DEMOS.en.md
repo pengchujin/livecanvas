@@ -2,7 +2,7 @@
 
 [简体中文](DEMOS.md) | **English**
 
-Sources were checked on 2026-09-30. Separate Chinese and English editions preserve the same data and animation timing. Media lives in `demos/zh/` and `demos/en/`. GIFs are 540×720, 15 fps looping previews; MP4s are full resolution. They are not native Live Photo playback in GitHub.
+Sources for the original nine demos were checked on 2026-09-30. Separate Chinese and English editions preserve the same data and animation timing. Media lives in `demos/zh/` and `demos/en/`. GIFs are 540×720, 15 fps looping previews; MP4s are full resolution. They are not native Live Photo playback in GitHub.
 
 - **Xiaomi:** Total market capitalization in HKD, 2023-09-29 to 2026-09-29. Thirteen quarter-end/latest snapshots; connecting lines are not daily observations. The peak refers only to the sampled points.
 - **A20 Pro vs A19 Pro:** Apple’s claims, not independent benchmarks. Each A19 Pro metric is independently normalized to 100. CPU/GPU percentages mean “up to”; the metrics cannot be added together.
@@ -14,7 +14,7 @@ Sources were checked on 2026-09-30. Separate Chinese and English editions preser
 - **Olympic gold:** CHN Summer Olympic gold medals, 1984–2024, using adjusted counts: Beijing 48, London 39. The Tokyo 2020 edition took place in 2021.
 - **Electricity mix:** Actual generation in 2015/2020/2025, not installed capacity. Thermal includes fossil fuels and bioenergy; displayed shares are rounded independently.
 
-The original pairs passed macOS PHLivePhoto loading; these newly rendered English GIF/MP4 previews are not newly paired `.pvt` files, and no iPhone native-playback claim is made. Attribution: [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md).
+For the original nine demos, the Chinese pairs passed macOS PHLivePhoto loading; their English GIF/MP4 previews are not newly paired `.pvt` files, and no iPhone native-playback claim is made. Attribution: [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md).
 
 
 ## Sources
@@ -28,3 +28,19 @@ The original pairs passed macOS PHLivePhoto loading; these newly rendered Englis
 - **Two-city temperatures:** [Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api)
 - **Olympic gold:** [Medal summary](https://en.wikipedia.org/wiki/China_at_the_Olympics#Medals_by_Summer_Games), [Chinese Olympic Committee](https://2024.olympic.cn/china/2024/0812/617045.html)
 - **Electricity mix:** [Ember](https://ember-energy.org/data/yearly-electricity-data/), [OWID](https://github.com/owid/energy-data)
+
+
+## Gemini 4 Argon: six additional demos
+
+Sources checked on 2026-10-01. A1, A2, B1, C1, D1 and E2 appear immediately after the A20 Pro demo. Separate Chinese and English editions use the same data and timing.
+
+| ID | Scope and definitions | Source |
+| --- | --- | --- |
+| A1 | Gemini 4 Argon announcement: engineering, knowledge work and security. Phased access for trusted testers, not general availability. | [Google announcement](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/) |
+| A2 | Output-token limit increases from 64K to 1M. This is not the context-window size. | [Google announcement](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/) |
+| B1 | Artificial Analysis Intelligence Index: Argon High 53, GPT-6 Astra Max 53, GPT-6.1 Sol Max 52. The comparison concerns this index, not every task. | [Artificial Analysis post](https://x.com/ArtificialAnlys/status/2105392625788637299) |
+| C1 | Omniscience hallucination rate: Argon 15%, Astra 51%, Sol 54%. Denominator: incorrect + partial + not attempted, not all questions. | [Artificial Analysis post](https://x.com/ArtificialAnlys/status/2105392625788637299), [definitions](https://artificialanalysis.ai/evaluations/omniscience) |
+| D1 | Text Arena Overall snapshot dated 2026-09-30: Argon High, 1525±9, 4,942 votes, preliminary. Rank does not imply a statistically significant lead. | [Arena Text](https://arena.ai/leaderboard/text) |
+| E2 | Terminal-Bench 4.0: Argon High 57%, versus 4% for Gemini 3.1 Pro Preview; a 53-percentage-point increase. | [Artificial Analysis post](https://x.com/ArtificialAnlys/status/2105392625788637299) |
+
+Both language editions of these six cards are 1080×1440, 30 fps and 4 seconds. Covers use frame 102 (3.4 seconds). GIF previews are 540×720 at 15 fps. Each card also includes a `.pvt.zip` download; extract it to obtain the Live Photo resource package. Both languages passed paired-metadata checks, local macOS PHLivePhoto loading and file-hash checks. iPhone playback has not been tested. The looping GIFs on GitHub are previews, not native Live Photo playback.

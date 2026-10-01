@@ -8,3 +8,10 @@
 - Remotion、React 等运行依赖不包含在此仓库中，安装时须遵循各自许可证，尤其是 [Remotion 许可](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md)。
 
 演示内容为数据与设计示例，不表示相关品牌或机构为本项目背书。数据来源及加工方式见 [DEMOS.md](docs/DEMOS.md)。
+
+
+## Gemini 4 Argon 演示素材
+
+- `docs/demos/{zh,en}/gemini-argon-*` 中的 Gemini 4 Argon 主图来自 [Google 官方发布](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/)；原图版权归 Google。主图仅做裁切、缩放与动画编排，没有将其列入本项目原创设计的 CC BY 许可。
+- 图卡中的 Google 与 OpenAI 标识来自 [Artificial Analysis 模型页](https://artificialanalysis.ai/models/gemini-4-argon) 的品牌素材，用于指明比较对象；商标及素材权利归各自权利人，不因本仓库许可而转授。
+- 数据及定义来自 Google、Artificial Analysis 和 Arena。对应链接及评测限制见 [中文演示说明](docs/DEMOS.md#gemini-4-argon新增六张) / [English demo notes](docs/DEMOS.en.md#gemini-4-argon-six-additional-demos)。这些机构不为本项目背书。

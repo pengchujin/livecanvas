@@ -8,30 +8,111 @@ An agent skill for Codex, Claude Code, and other compatible assistants: **resear
 
 ## Demos
 
-15 English demos. GIFs loop inline; click a title for the full-resolution MP4. The six Gemini 4 Argon cards also include Live Photo downloads. Switch to [Chinese](README.md) for the Chinese editions.
+15 demos with single-column GIF previews. Full-resolution MP4 links appear below each image; the six Gemini 4 Argon cards also include Live Photo downloads.
 
-| [Xiaomi market cap](docs/demos/en/xiaomi.mp4) | [A20 Pro vs A19 Pro](docs/demos/en/a20-pro.mp4) | [Introducing Gemini 4 Argon](docs/demos/en/gemini-argon-intro.mp4) |
-| :---: | :---: | :---: |
-| ![Xiaomi market cap](docs/demos/en/xiaomi.gif) | ![A20 Pro vs A19 Pro](docs/demos/en/a20-pro.gif) | ![Introducing Gemini 4 Argon](docs/demos/en/gemini-argon-intro.gif) |
-|  |  | Engineering, knowledge work and security; phased access for trusted testers.<br/>[Download Live Photo](docs/demos/en/gemini-argon-intro.pvt.zip) |
+[Gemini 4 Argon](#introducing-gemini-4-argon) · [More demos](#population) · [Install](#install) · [简体中文](README.md#作品演示)
 
-| [1M output tokens](docs/demos/en/gemini-argon-output.mp4) | [On par with GPT-6.1 Sol](docs/demos/en/gemini-argon-performance.mp4) | [Hallucination rate: 15%](docs/demos/en/gemini-argon-hallucination.mp4) |
-| :---: | :---: | :---: |
-| ![1M output tokens](docs/demos/en/gemini-argon-output.gif) | ![On par with GPT-6.1 Sol](docs/demos/en/gemini-argon-performance.gif) | ![Hallucination rate: 15%](docs/demos/en/gemini-argon-hallucination.gif) |
-| The output limit rises from 64K to 1M tokens.<br/>[Download Live Photo](docs/demos/en/gemini-argon-output.pvt.zip) | Artificial Analysis Intelligence Index: Argon 53, Astra 53, Sol 52.<br/>[Download Live Photo](docs/demos/en/gemini-argon-performance.pvt.zip) | Artificial Analysis Omniscience: Argon 15%, Astra 51%, Sol 54%.<br/>[Download Live Photo](docs/demos/en/gemini-argon-hallucination.pvt.zip) |
+### Xiaomi market cap
 
-| [#1 in Text Arena](docs/demos/en/gemini-argon-arena.mp4) | [Terminal tasks: 57%](docs/demos/en/gemini-argon-terminal.mp4) | [Population](docs/demos/en/population.mp4) |
-| :---: | :---: | :---: |
-| ![#1 in Text Arena](docs/demos/en/gemini-argon-arena.gif) | ![Terminal tasks: 57%](docs/demos/en/gemini-argon-terminal.gif) | ![Population](docs/demos/en/population.gif) |
-| 1525 points and 4,942 votes; ranked first, with preliminary results.<br/>[Download Live Photo](docs/demos/en/gemini-argon-arena.pvt.zip) | Terminal-Bench 4.0: Argon 57%, versus 4% for Gemini 3.1 Pro Preview.<br/>[Download Live Photo](docs/demos/en/gemini-argon-terminal.pvt.zip) |  |
+![Xiaomi market cap](docs/demos/en/xiaomi.gif)
 
-| [Coffee stores](docs/demos/en/coffee.mp4) | [NEV adoption](docs/demos/en/nev.mp4) | [High-speed rail](docs/demos/en/rail.mp4) |
-| :---: | :---: | :---: |
-| ![Coffee stores](docs/demos/en/coffee.gif) | ![NEV adoption](docs/demos/en/nev.gif) | ![High-speed rail](docs/demos/en/rail.gif) |
+[Full-resolution MP4](docs/demos/en/xiaomi.mp4)
 
-| [Two-city temperatures](docs/demos/en/weather.mp4) | [Olympic gold](docs/demos/en/olympics.mp4) | [Electricity mix](docs/demos/en/energy.mp4) |
-| :---: | :---: | :---: |
-| ![Two-city temperatures](docs/demos/en/weather.gif) | ![Olympic gold](docs/demos/en/olympics.gif) | ![Electricity mix](docs/demos/en/energy.gif) |
+### A20 Pro vs A19 Pro
+
+![A20 Pro vs A19 Pro](docs/demos/en/a20-pro.gif)
+
+[Full-resolution MP4](docs/demos/en/a20-pro.mp4)
+
+### Introducing Gemini 4 Argon
+
+![Introducing Gemini 4 Argon](docs/demos/en/gemini-argon-intro.gif)
+
+Engineering, knowledge work and security; phased access for trusted testers.
+
+[Full-resolution MP4](docs/demos/en/gemini-argon-intro.mp4) · [Download Live Photo](docs/demos/en/gemini-argon-intro.pvt.zip)
+
+### 1M output tokens
+
+![1M output tokens](docs/demos/en/gemini-argon-output.gif)
+
+The output limit rises from 64K to 1M tokens.
+
+[Full-resolution MP4](docs/demos/en/gemini-argon-output.mp4) · [Download Live Photo](docs/demos/en/gemini-argon-output.pvt.zip)
+
+### On par with GPT-6.1 Sol
+
+![On par with GPT-6.1 Sol](docs/demos/en/gemini-argon-performance.gif)
+
+Artificial Analysis Intelligence Index: Argon 53, Astra 53, Sol 52.
+
+[Full-resolution MP4](docs/demos/en/gemini-argon-performance.mp4) · [Download Live Photo](docs/demos/en/gemini-argon-performance.pvt.zip)
+
+### Hallucination rate: 15%
+
+![Hallucination rate: 15%](docs/demos/en/gemini-argon-hallucination.gif)
+
+Artificial Analysis Omniscience: Argon 15%, Astra 51%, Sol 54%.
+
+[Full-resolution MP4](docs/demos/en/gemini-argon-hallucination.mp4) · [Download Live Photo](docs/demos/en/gemini-argon-hallucination.pvt.zip)
+
+### #1 in Text Arena
+
+![#1 in Text Arena](docs/demos/en/gemini-argon-arena.gif)
+
+1525 points and 4,942 votes; ranked first, with preliminary results.
+
+[Full-resolution MP4](docs/demos/en/gemini-argon-arena.mp4) · [Download Live Photo](docs/demos/en/gemini-argon-arena.pvt.zip)
+
+### Terminal tasks: 57%
+
+![Terminal tasks: 57%](docs/demos/en/gemini-argon-terminal.gif)
+
+Terminal-Bench 4.0: Argon 57%, versus 4% for Gemini 3.1 Pro Preview.
+
+[Full-resolution MP4](docs/demos/en/gemini-argon-terminal.mp4) · [Download Live Photo](docs/demos/en/gemini-argon-terminal.pvt.zip)
+
+### Population
+
+![Population](docs/demos/en/population.gif)
+
+[Full-resolution MP4](docs/demos/en/population.mp4)
+
+### Coffee stores
+
+![Coffee stores](docs/demos/en/coffee.gif)
+
+[Full-resolution MP4](docs/demos/en/coffee.mp4)
+
+### NEV adoption
+
+![NEV adoption](docs/demos/en/nev.gif)
+
+[Full-resolution MP4](docs/demos/en/nev.mp4)
+
+### High-speed rail
+
+![High-speed rail](docs/demos/en/rail.gif)
+
+[Full-resolution MP4](docs/demos/en/rail.mp4)
+
+### Two-city temperatures
+
+![Two-city temperatures](docs/demos/en/weather.gif)
+
+[Full-resolution MP4](docs/demos/en/weather.mp4)
+
+### Olympic gold
+
+![Olympic gold](docs/demos/en/olympics.gif)
+
+[Full-resolution MP4](docs/demos/en/olympics.mp4)
+
+### Electricity mix
+
+![Electricity mix](docs/demos/en/energy.gif)
+
+[Full-resolution MP4](docs/demos/en/energy.mp4)
 
 Data is a production-time snapshot, not a live feed. Gemini sources were checked on 2026-10-01; Text Arena is dated 2026-09-30. See [demo notes](docs/DEMOS.en.md) for sources and definitions.
 

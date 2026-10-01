@@ -8,30 +8,111 @@
 
 ## 作品演示
 
-15 张中文作品，GIF 直接循环播放；点击标题查看高清 MP4。新增的 6 张 Gemini 4 Argon 图卡可下载 Live Photo。切换到 [English](README.en.md) 可查看英文版作品。
+15 张作品，单列 GIF 动态预览。每张图下方提供高清 MP4，Gemini 4 Argon 的 6 张另附 Live Photo 下载。
 
-| [小米市值](docs/demos/zh/xiaomi.mp4) | [A20 Pro vs A19 Pro](docs/demos/zh/a20-pro.mp4) | [Gemini 4 Argon 登场](docs/demos/zh/gemini-argon-intro.mp4) |
-| :---: | :---: | :---: |
-| ![小米市值](docs/demos/zh/xiaomi.gif) | ![A20 Pro vs A19 Pro](docs/demos/zh/a20-pro.gif) | ![Gemini 4 Argon 登场](docs/demos/zh/gemini-argon-intro.gif) |
-|  |  | 软件工程、知识工作与安全防御；分阶段开放给受信任测试者。<br/>[下载 Live Photo](docs/demos/zh/gemini-argon-intro.pvt.zip) |
+[Gemini 4 Argon](#gemini-4-argon-登场) · [更多作品](#全球人口) · [安装方法](#安装) · [English](README.en.md#demos)
 
-| [1M 输出上限](docs/demos/zh/gemini-argon-output.mp4) | [比肩 GPT-6.1 Sol](docs/demos/zh/gemini-argon-performance.mp4) | [更少幻觉：15%](docs/demos/zh/gemini-argon-hallucination.mp4) |
-| :---: | :---: | :---: |
-| ![1M 输出上限](docs/demos/zh/gemini-argon-output.gif) | ![比肩 GPT-6.1 Sol](docs/demos/zh/gemini-argon-performance.gif) | ![更少幻觉：15%](docs/demos/zh/gemini-argon-hallucination.gif) |
-| 单次输出上限从 64K 提高到 1M tokens。<br/>[下载 Live Photo](docs/demos/zh/gemini-argon-output.pvt.zip) | Artificial Analysis 智能指数：Argon 53 分，Astra 53 分，Sol 52 分。<br/>[下载 Live Photo](docs/demos/zh/gemini-argon-performance.pvt.zip) | Artificial Analysis Omniscience：Argon 15%，Astra 51%，Sol 54%。<br/>[下载 Live Photo](docs/demos/zh/gemini-argon-hallucination.pvt.zip) |
+### 小米市值
 
-| [Text Arena 第一](docs/demos/zh/gemini-argon-arena.mp4) | [终端任务 57%](docs/demos/zh/gemini-argon-terminal.mp4) | [全球人口](docs/demos/zh/population.mp4) |
-| :---: | :---: | :---: |
-| ![Text Arena 第一](docs/demos/zh/gemini-argon-arena.gif) | ![终端任务 57%](docs/demos/zh/gemini-argon-terminal.gif) | ![全球人口](docs/demos/zh/population.gif) |
-| 1525 分、4,942 票，暂列第一；目前为初步结果。<br/>[下载 Live Photo](docs/demos/zh/gemini-argon-arena.pvt.zip) | Terminal-Bench 4.0：Argon 57%，此前 Gemini 3.1 Pro Preview 为 4%。<br/>[下载 Live Photo](docs/demos/zh/gemini-argon-terminal.pvt.zip) |  |
+![小米市值](docs/demos/zh/xiaomi.gif)
 
-| [咖啡门店](docs/demos/zh/coffee.mp4) | [新能源车](docs/demos/zh/nev.mp4) | [中国高铁](docs/demos/zh/rail.mp4) |
-| :---: | :---: | :---: |
-| ![咖啡门店](docs/demos/zh/coffee.gif) | ![新能源车](docs/demos/zh/nev.gif) | ![中国高铁](docs/demos/zh/rail.gif) |
+[高清 MP4](docs/demos/zh/xiaomi.mp4)
 
-| [双城气温](docs/demos/zh/weather.mp4) | [奥运金牌](docs/demos/zh/olympics.mp4) | [发电结构](docs/demos/zh/energy.mp4) |
-| :---: | :---: | :---: |
-| ![双城气温](docs/demos/zh/weather.gif) | ![奥运金牌](docs/demos/zh/olympics.gif) | ![发电结构](docs/demos/zh/energy.gif) |
+### A20 Pro vs A19 Pro
+
+![A20 Pro vs A19 Pro](docs/demos/zh/a20-pro.gif)
+
+[高清 MP4](docs/demos/zh/a20-pro.mp4)
+
+### Gemini 4 Argon 登场
+
+![Gemini 4 Argon 登场](docs/demos/zh/gemini-argon-intro.gif)
+
+软件工程、知识工作与安全防御；分阶段开放给受信任测试者。
+
+[高清 MP4](docs/demos/zh/gemini-argon-intro.mp4) · [下载 Live Photo](docs/demos/zh/gemini-argon-intro.pvt.zip)
+
+### 1M 输出上限
+
+![1M 输出上限](docs/demos/zh/gemini-argon-output.gif)
+
+单次输出上限从 64K 提高到 1M tokens。
+
+[高清 MP4](docs/demos/zh/gemini-argon-output.mp4) · [下载 Live Photo](docs/demos/zh/gemini-argon-output.pvt.zip)
+
+### 比肩 GPT-6.1 Sol
+
+![比肩 GPT-6.1 Sol](docs/demos/zh/gemini-argon-performance.gif)
+
+Artificial Analysis 智能指数：Argon 53 分，Astra 53 分，Sol 52 分。
+
+[高清 MP4](docs/demos/zh/gemini-argon-performance.mp4) · [下载 Live Photo](docs/demos/zh/gemini-argon-performance.pvt.zip)
+
+### 更少幻觉：15%
+
+![更少幻觉：15%](docs/demos/zh/gemini-argon-hallucination.gif)
+
+Artificial Analysis Omniscience：Argon 15%，Astra 51%，Sol 54%。
+
+[高清 MP4](docs/demos/zh/gemini-argon-hallucination.mp4) · [下载 Live Photo](docs/demos/zh/gemini-argon-hallucination.pvt.zip)
+
+### Text Arena 第一
+
+![Text Arena 第一](docs/demos/zh/gemini-argon-arena.gif)
+
+1525 分、4,942 票，暂列第一；目前为初步结果。
+
+[高清 MP4](docs/demos/zh/gemini-argon-arena.mp4) · [下载 Live Photo](docs/demos/zh/gemini-argon-arena.pvt.zip)
+
+### 终端任务 57%
+
+![终端任务 57%](docs/demos/zh/gemini-argon-terminal.gif)
+
+Terminal-Bench 4.0：Argon 57%，此前 Gemini 3.1 Pro Preview 为 4%。
+
+[高清 MP4](docs/demos/zh/gemini-argon-terminal.mp4) · [下载 Live Photo](docs/demos/zh/gemini-argon-terminal.pvt.zip)
+
+### 全球人口
+
+![全球人口](docs/demos/zh/population.gif)
+
+[高清 MP4](docs/demos/zh/population.mp4)
+
+### 咖啡门店
+
+![咖啡门店](docs/demos/zh/coffee.gif)
+
+[高清 MP4](docs/demos/zh/coffee.mp4)
+
+### 新能源车
+
+![新能源车](docs/demos/zh/nev.gif)
+
+[高清 MP4](docs/demos/zh/nev.mp4)
+
+### 中国高铁
+
+![中国高铁](docs/demos/zh/rail.gif)
+
+[高清 MP4](docs/demos/zh/rail.mp4)
+
+### 双城气温
+
+![双城气温](docs/demos/zh/weather.gif)
+
+[高清 MP4](docs/demos/zh/weather.mp4)
+
+### 奥运金牌
+
+![奥运金牌](docs/demos/zh/olympics.gif)
+
+[高清 MP4](docs/demos/zh/olympics.mp4)
+
+### 发电结构
+
+![发电结构](docs/demos/zh/energy.gif)
+
+[高清 MP4](docs/demos/zh/energy.mp4)
 
 数据为制作时的快照，不会自动更新。Gemini 图卡核对日期为 2026-10-01，Text Arena 榜单日期为 2026-09-30。来源与口径见 [演示说明](docs/DEMOS.md)。
 

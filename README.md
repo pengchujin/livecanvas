@@ -8,25 +8,54 @@
 
 ## 作品演示
 
-15 张作品，单列 GIF 动态预览。每张图下方提供高清 MP4，Gemini 4 Argon 的 6 张另附 Live Photo 下载。
+15 张 GIF 动态预览，点击图片放大。
 
-[Gemini 4 Argon](#gemini-4-argon-登场) · [更多作品](#全球人口) · [安装方法](#安装) · [English](README.en.md#demos)
+[下载与说明](#下载与说明) · [安装方法](#安装) · [English](README.en.md#demos)
+
+<p align="center">
+  <a href="docs/demos/zh/xiaomi.gif"><img src="docs/demos/zh/xiaomi.gif" width="260" alt="小米市值" /></a>
+  <a href="docs/demos/zh/a20-pro.gif"><img src="docs/demos/zh/a20-pro.gif" width="260" alt="A20 Pro vs A19 Pro" /></a>
+  <a href="docs/demos/zh/gemini-argon-intro.gif"><img src="docs/demos/zh/gemini-argon-intro.gif" width="260" alt="Gemini 4 Argon 登场" /></a>
+</p>
+
+<p align="center">
+  <a href="docs/demos/zh/gemini-argon-output.gif"><img src="docs/demos/zh/gemini-argon-output.gif" width="260" alt="1M 输出上限" /></a>
+  <a href="docs/demos/zh/gemini-argon-performance.gif"><img src="docs/demos/zh/gemini-argon-performance.gif" width="260" alt="比肩 GPT-6.1 Sol" /></a>
+  <a href="docs/demos/zh/gemini-argon-hallucination.gif"><img src="docs/demos/zh/gemini-argon-hallucination.gif" width="260" alt="更少幻觉：15%" /></a>
+</p>
+
+<p align="center">
+  <a href="docs/demos/zh/gemini-argon-arena.gif"><img src="docs/demos/zh/gemini-argon-arena.gif" width="260" alt="Text Arena 第一" /></a>
+  <a href="docs/demos/zh/gemini-argon-terminal.gif"><img src="docs/demos/zh/gemini-argon-terminal.gif" width="260" alt="终端任务 57%" /></a>
+  <a href="docs/demos/zh/population.gif"><img src="docs/demos/zh/population.gif" width="260" alt="全球人口" /></a>
+</p>
+
+<p align="center">
+  <a href="docs/demos/zh/coffee.gif"><img src="docs/demos/zh/coffee.gif" width="260" alt="咖啡门店" /></a>
+  <a href="docs/demos/zh/nev.gif"><img src="docs/demos/zh/nev.gif" width="260" alt="新能源车" /></a>
+  <a href="docs/demos/zh/rail.gif"><img src="docs/demos/zh/rail.gif" width="260" alt="中国高铁" /></a>
+</p>
+
+<p align="center">
+  <a href="docs/demos/zh/weather.gif"><img src="docs/demos/zh/weather.gif" width="260" alt="双城气温" /></a>
+  <a href="docs/demos/zh/olympics.gif"><img src="docs/demos/zh/olympics.gif" width="260" alt="奥运金牌" /></a>
+  <a href="docs/demos/zh/energy.gif"><img src="docs/demos/zh/energy.gif" width="260" alt="发电结构" /></a>
+</p>
+
+## 下载与说明
+
+<details>
+<summary>展开查看作品说明、高清 MP4 和 Live Photo</summary>
 
 ### 小米市值
-
-![小米市值](docs/demos/zh/xiaomi.gif)
 
 [高清 MP4](docs/demos/zh/xiaomi.mp4)
 
 ### A20 Pro vs A19 Pro
 
-![A20 Pro vs A19 Pro](docs/demos/zh/a20-pro.gif)
-
 [高清 MP4](docs/demos/zh/a20-pro.mp4)
 
 ### Gemini 4 Argon 登场
-
-![Gemini 4 Argon 登场](docs/demos/zh/gemini-argon-intro.gif)
 
 软件工程、知识工作与安全防御；分阶段开放给受信任测试者。
 
@@ -34,15 +63,11 @@
 
 ### 1M 输出上限
 
-![1M 输出上限](docs/demos/zh/gemini-argon-output.gif)
-
 单次输出上限从 64K 提高到 1M tokens。
 
 [高清 MP4](docs/demos/zh/gemini-argon-output.mp4) · [下载 Live Photo](docs/demos/zh/gemini-argon-output.pvt.zip)
 
 ### 比肩 GPT-6.1 Sol
-
-![比肩 GPT-6.1 Sol](docs/demos/zh/gemini-argon-performance.gif)
 
 Artificial Analysis 智能指数：Argon 53 分，Astra 53 分，Sol 52 分。
 
@@ -50,15 +75,11 @@ Artificial Analysis 智能指数：Argon 53 分，Astra 53 分，Sol 52 分。
 
 ### 更少幻觉：15%
 
-![更少幻觉：15%](docs/demos/zh/gemini-argon-hallucination.gif)
-
 Artificial Analysis Omniscience：Argon 15%，Astra 51%，Sol 54%。
 
 [高清 MP4](docs/demos/zh/gemini-argon-hallucination.mp4) · [下载 Live Photo](docs/demos/zh/gemini-argon-hallucination.pvt.zip)
 
 ### Text Arena 第一
-
-![Text Arena 第一](docs/demos/zh/gemini-argon-arena.gif)
 
 1525 分、4,942 票，暂列第一；目前为初步结果。
 
@@ -66,55 +87,41 @@ Artificial Analysis Omniscience：Argon 15%，Astra 51%，Sol 54%。
 
 ### 终端任务 57%
 
-![终端任务 57%](docs/demos/zh/gemini-argon-terminal.gif)
-
 Terminal-Bench 4.0：Argon 57%，此前 Gemini 3.1 Pro Preview 为 4%。
 
 [高清 MP4](docs/demos/zh/gemini-argon-terminal.mp4) · [下载 Live Photo](docs/demos/zh/gemini-argon-terminal.pvt.zip)
 
 ### 全球人口
 
-![全球人口](docs/demos/zh/population.gif)
-
 [高清 MP4](docs/demos/zh/population.mp4)
 
 ### 咖啡门店
-
-![咖啡门店](docs/demos/zh/coffee.gif)
 
 [高清 MP4](docs/demos/zh/coffee.mp4)
 
 ### 新能源车
 
-![新能源车](docs/demos/zh/nev.gif)
-
 [高清 MP4](docs/demos/zh/nev.mp4)
 
 ### 中国高铁
-
-![中国高铁](docs/demos/zh/rail.gif)
 
 [高清 MP4](docs/demos/zh/rail.mp4)
 
 ### 双城气温
 
-![双城气温](docs/demos/zh/weather.gif)
-
 [高清 MP4](docs/demos/zh/weather.mp4)
 
 ### 奥运金牌
-
-![奥运金牌](docs/demos/zh/olympics.gif)
 
 [高清 MP4](docs/demos/zh/olympics.mp4)
 
 ### 发电结构
 
-![发电结构](docs/demos/zh/energy.gif)
-
 [高清 MP4](docs/demos/zh/energy.mp4)
 
 数据为制作时的快照，不会自动更新。Gemini 图卡核对日期为 2026-10-01，Text Arena 榜单日期为 2026-09-30。来源与口径见 [演示说明](docs/DEMOS.md)。
+
+</details>
 
 ## 安装
 

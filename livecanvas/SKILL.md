@@ -49,7 +49,7 @@ description: 将主题或材料经搜索核实制成苹果 Live Photo 信息动�
 - 所有动画由 `useCurrentFrame()` 驱动；禁止 CSS animation、墙钟、未固定随机数、网页图库自带动画。
 - 将图片、emoji、文字、场景与图表纳入同一分镜，保留可追溯事实、静态封面、确定性渲染与验证流程。
 - 从同一 composition 的完整停留帧导出 `cover.jpg`，记录 `coverFrame / fps`。封面画面必须出现在动画内，still-image-time 指向同一时间。
-- 用 `scripts/pair_live_photo.swift` 将无声 H.264 视频与 JPEG 封面写成配对资源。这是中间步骤，不算交付完成；其他输入先转码，不默默丢弃用户音轨。
+- 按生成环境选择配对器：macOS 可用 `scripts/pair_live_photo.swift`；Linux / Windows 使用 `scripts/pair_live_photo.py`，读 [跨平台 Apple Live Photo](references/portable-live-photo.md)。两条路径都将无声 H.264 与 JPEG 写成包含共享标识和 timed metadata 的 Apple 配对资源。这是中间步骤，不算交付完成；其他输入先转码，不默默丢弃用户音轨。
 - 封装完成后禁止再次普通转码 paired MOV，否则可能丢失元数据轨道。
 - 用 `scripts/package_live_photo.py` 生成命名明确的单个 `.pvt` 包；将其标为实况资源包，不承诺 iPhone「文件」App 可直接预览；不自动打开或导入「照片」App，不修改照片库。不得停在 JPG + MOV 配对资源。
 
@@ -62,11 +62,11 @@ description: 将主题或材料经搜索核实制成苹果 Live Photo 信息动�
 1. 数据与来源核实；机器校验只是其中一部分。
 2. 封面和 MP4 渲染完成，素材与主要动作可见，元数据及画面检查通过。
 3. Live Photo 标识匹配、timed metadata 时间位置正确。
-4. `PHLivePhoto.request` 本机加载成功或具体失败。
+4. 有 Apple 环境时记录 `PHLivePhoto.request` 本机加载成功或具体失败；纯 Python 生成环境记为 `not_available`，不要伪造通过。
 5. `.pvt` 包完整、配对资源哈希一致。
 6. 相册导入、设备播放、第三方平台上传及锁屏兼容性均为可选事项，只有用户另外明确请求时才操作并记录，不作为文件交付的前置条件。
 
-没有 macOS 时完成数据、封面、工程及视频，保留封装命令，明确 Live Photo 未生成；完成本机加载与包完整性验证后可交付 .pvt 资源包；这不证明手机预览、保存或播放成功。
+没有 macOS 时执行跨平台 Python 配对与打包，不能仅因操作系统退回 MP4 + 封面。元数据读回、视频解码和包完整性通过即可交付资源；Apple 本机加载、iPhone 导入/播放分别记录。缺少实际依赖且无法安装时才交付预览并明确阻塞项，不声称平台无法生成。生成文件不证明手机预览、保存或播放成功。
 
 ## 交付
 

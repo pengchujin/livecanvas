@@ -15,3 +15,7 @@
 - `docs/demos/{zh,en}/gemini-argon-*` 中的 Gemini 4 Argon 主图来自 [Google 官方发布](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/)；原图版权归 Google。主图仅做裁切、缩放与动画编排，没有将其列入本项目原创设计的 CC BY 许可。
 - 图卡中的 Google 与 OpenAI 标识来自 [Artificial Analysis 模型页](https://artificialanalysis.ai/models/gemini-4-argon) 的品牌素材，用于指明比较对象；商标及素材权利归各自权利人，不因本仓库许可而转授。
 - 数据及定义来自 Google、Artificial Analysis 和 Arena。对应链接及评测限制见 [中文演示说明](docs/DEMOS.md#gemini-4-argon新增六张) / [English demo notes](docs/DEMOS.en.md#gemini-4-argon-six-additional-demos)。这些机构不为本项目背书。
+
+## Portable Apple Live Photo metadata
+
+`livecanvas/scripts/portable_live_photo/` includes modified `apple.py` and `iso_bmff.py` from yangzhen-23/video-to-live-photo, commit `83b55e6e66b6cbb39e7d7acddbbb52eef1585adc`, Copyright 2026 杨振, Apache-2.0. License and NOTICE are included in that directory. LiveCanvas modifications cover JPEG ExifIFD/UNDEFINED encoding, zero-valued timed samples, frame-length timing, exact identifier readback, input restrictions and next-track IDs.

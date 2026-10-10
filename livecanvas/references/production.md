@@ -2,7 +2,7 @@
 
 ## 创建独立项目
 
-环境：Node.js、Python 3；封装需要 macOS 的 Swift/AVFoundation/ImageIO/Photos。视频检查用 ffprobe。预先查 `command -v`；缺环境如实记录。Remotion 当前模板锁定 4.0.530，升级时所有 @remotion 包版本一致并重跑渲染。遵循 [Remotion 许可证](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md)。
+环境：Node.js、Python 3；Apple 配对可用跨平台 Python + Pillow + FFmpeg/ffprobe，或 macOS 的 Swift/AVFoundation/ImageIO/Photos；`.pvt` 打包本身用 Python。预先查 `command -v`；缺环境如实记录。Remotion 当前模板锁定 4.0.530，升级时所有 @remotion 包版本一致并重跑渲染。遵循 [Remotion 许可证](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md)。
 
 在下面命令中把路径替换为实际绝对路径。`SKILL_DIR` 是本 skill 目录，`PROJECT_DIR` 是本次独立工作目录。只复制项目所需资产，避免污染 skill。
 
@@ -31,6 +31,8 @@ Remotion 默认使用自己的浏览器；必要时通过 `LIVECANVAS_BROWSER` �
 
 ## Live Photo 配对
 
+Linux / Windows 走 [跨平台 Apple Live Photo](portable-live-photo.md)，不要在生成 MP4 后停止；macOS 也可用此路径。下面是 macOS 原生备选实现。
+
 在 macOS 编译并运行随附工具，输出目录必须尚不存在：
 
 ```bash
@@ -56,7 +58,7 @@ ffprobe -v error -show_streams -show_format -of json "$PROJECT_DIR/out/live/live
 
 检查封面与抽帧，播放 MP4；覆盖主要图片动作、转场、素材加载、数值变化和封面一致性。改为多幕时同步增加各幕抽帧位置。Sources.md 记录实测/模型、点数、采样、汇率/股本/聚合方法。不得只检查文件存在。
 
-配对成功后必须执行 [直接交付](direct-delivery.md)：生成 `主题名称.pvt` 资源包，注明接收应用兼容性。相册导入不属于默认流程，只有另行明确请求时才执行。单独交付两个资源并让用户手动配对，不符合直接 Live 图的交付标准。保留 `package-receipt.json` 和 `delivery.json`，记录配对验证、本机加载与包完整性结果。
+配对成功后必须执行 [直接交付](direct-delivery.md)：生成 `主题名称.pvt` 资源包，注明接收应用兼容性。相册导入不属于默认流程，只有另行明确请求时才执行。单独交付两个资源并让用户手动配对，不符合直接 Live 图的交付标准。保留 `package-receipt.json` 和 `delivery.json`，记录配对验证、本机加载（跨平台未执行时为 not_available）与包完整性结果。
 
 建议 `qa.json`：
 

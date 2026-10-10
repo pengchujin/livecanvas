@@ -13,13 +13,13 @@ python3 "$SKILL_DIR/scripts/package_live_photo.py" \
   > "$PROJECT_DIR/out/package-receipt.json"
 ```
 
-脚本只接受已通过 metadataVerified 与 PHLivePhoto 本机加载的资源，复制后校验 SHA-256，不转码；相同输出可安全复用，不覆盖不同内容。`metadata.plist` 使用字符串类型的 `PFVideoComplementMetadataVersionKey = 1`。
+原生 Swift 路径接受已通过 metadataVerified 与 PHLivePhoto 本机加载的资源；跨平台 Python 路径重新读回校验元数据、哈希和视频，允许本机加载为 not_available（见 [跨平台生成与 iPhone 接收](portable-live-photo.md)）。已知加载失败不能绕过。脚本复制后校验 SHA-256，不转码；相同输出可安全复用，不覆盖不同内容。`metadata.plist` 使用字符串类型的 `PFVideoComplementMetadataVersionKey = 1`。
 
 包结构参考开源 [makelive 的 .pvt 实现](https://github.com/RhetTbull/makelive/blob/main/makelive/makelive.py)；Apple 定义 [UTType.livePhoto](https://developer.apple.com/documentation/uniformtypeidentifiers/uttype-swift.struct/livephoto)。macOS 文件包可作为单个项目打开/传输；不要承诺所有聊天软件、网页下载器或 iPhone“文件”App 都能直接导入它。ZIP 传输时须明确解压后才得到 .pvt 包。
 
 ## 文件验证与完成条件
 
-检查配对 metadata、本机 `PHLivePhoto.request` 加载、包内资源哈希与 metadata.plist。上述加载是对本地文件的验证，不需要往用户照片库写入资产。完成这些检查即可交付实况资源包，但不能据此声称手机可直接预览或已保存为相册中的实况照片。
+检查配对 metadata、包内资源哈希与 metadata.plist；有 Apple 环境时补充 `PHLivePhoto.request` 加载，没有时独立记录 not_available。上述加载是对本地文件的验证，不需要往用户照片库写入资产。完成这些检查即可交付实况资源包，但不能据此声称手机可直接预览或已保存为相册中的实况照片。
 
 不要为了验收自动打开 .pvt（可能触发「照片」导入），不启动照片 App、不创建相簿、不修复图库、不请求图库权限。相册导入仅在用户另外明确要求时执行；“直接交付 Live Photo”本身不表示要求导入。
 

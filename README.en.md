@@ -157,7 +157,7 @@ Copy the sibling `livechart/` folder too if you need the legacy `$livechart` ali
 ## Requirements & output
 
 - **Animation:** An agent with web research and code execution; Node.js, Python 3, FFmpeg, and fonts for the content’s language. Install project dependencies with `npm ci`.
-- **Live Photo:** Pairing also requires macOS and Xcode Command Line Tools. The current tool accepts silent H.264 video and JPEG images.
+- **Live Photo:** Pair Apple resources on Linux, Windows or macOS with Python 3.10+, Pillow and FFmpeg. macOS also offers a Swift backend and optional PhotoKit validation. Both accept silent H.264 video and JPEG images. See the [portable generation and iPhone import guide](livecanvas/references/portable-live-photo.md).
 - **Delivery:** Cover, MP4, sources, editable project, and a `.pvt` resource package where supported. No automatic Photos import.
 
 A `.pvt` bundles paired photo/video resources and metadata; iPhone Files may not preview it. README animations are GIFs, not native Live Photos.

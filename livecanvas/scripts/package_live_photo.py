@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Wrap a validated Live Photo pair in a macOS .pvt package (no transcoding)."""
+"""Wrap a validated Live Photo pair in a cross-platform .pvt package (no transcoding)."""
 import argparse
 import hashlib
 import json
@@ -16,8 +16,16 @@ def digest(path):
 def package(pair_dir, output):
     pair_dir, output = Path(pair_dir).resolve(), Path(output).absolute()
     manifest = json.loads((pair_dir / 'manifest.json').read_text())
-    if manifest.get('metadataVerified') is not True or manifest.get('localPHLivePhotoLoad') != 'passed':
-        raise ValueError('Pair must pass metadata and PHLivePhoto validation first')
+    if manifest.get('metadataVerified') is not True:
+        raise ValueError('Pair must pass metadata validation first')
+    load = manifest.get('localPHLivePhotoLoad')
+    if manifest.get('backend') == 'portable-python':
+        from pair_live_photo import verify_pair
+        verify_pair(pair_dir, manifest)  # Re-read files; do not trust a manifest flag alone.
+        if load not in ('passed', 'not_available'):
+            raise ValueError('Known Apple loading failure blocks delivery')
+    elif load != 'passed':
+        raise ValueError('Native backend must pass PHLivePhoto validation first')
     if output.suffix.lower() != '.pvt':
         raise ValueError('Output must end in .pvt')
     resources = {}
@@ -51,6 +59,7 @@ def package(pair_dir, output):
                 shutil.rmtree(staging)
     return {'package': str(output), 'identifier': manifest['identifier'],
             'resourcesUnchanged': True, 'reused': reused,
+            'metadataVerified': True, 'localPHLivePhotoLoad': load,
             'sha256': {name: digest(output / name) for name in resources},
             'photosImport': 'not_tested', 'iPhonePlayback': 'not_tested'}
 

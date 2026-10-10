@@ -156,7 +156,7 @@ npx skills add pengchujin/livecanvas --skill livecanvas -g -a codex
 ## 运行与交付
 
 - **动画：** 助手需能联网搜索和执行代码；需 Node.js、Python 3、FFmpeg，以及内容对应的字体。项目用 `npm ci` 安装依赖。
-- **Live Photo：** 配对封装额外需要 macOS 和 Xcode Command Line Tools。当前工具支持无声 H.264 + JPEG。
+- **Live Photo：** Linux / Windows / macOS 可使用 Python 3.10+、Pillow 和 FFmpeg 生成 Apple 配对资源；macOS 另有 Swift 原生路径及 PhotoKit 验证。当前工具支持无声 H.264 + JPEG。见 [跨平台生成与 iPhone 导入](livecanvas/references/portable-live-photo.md)。
 - **交付：** 封面、MP4、数据来源、可编辑工程，以及支持环境下的 `.pvt` 资源包；不自动导入相册。
 
 `.pvt` 包含配对照片、视频及元数据，iPhone「文件」App 未必能直接预览。README 使用 GIF 展示动效，GIF 不是原生 Live Photo。
